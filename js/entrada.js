@@ -18,6 +18,5 @@ function nextImage(){
     imagenInicial.classList.toggle("hidden");
     let imagenSegunda = document.getElementById("container-imagen-segunda");
     imagenSegunda.classList.toggle("hidden");
-
 }
 

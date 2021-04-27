@@ -1,0 +1,66 @@
+:root{
+    --color-primary:#FEC7D7;
+    --color-secondary:#A786DF;
+    --color-tertiary: #D9D4E7;
+    --color-green: #85D1CE;
+    --color-blue: #91C1D7;
+    --color-white: #FFFFFE;
+    --color-black: #0E172C;
+    --color-gray: #535353;
+    --font-family: "Nunito", sans-serif;
+}
+/* 
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+} */
+
+.headline-1{
+    margin: 40px 0;
+}
+
+#buttons-category-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.button-category{
+    width: 156px;
+    height: 80px;
+    border-radius: 8px;
+}
+
+.icon{
+    background-color: var(--color-green);
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-dog{
+    background-image: url("/img/perros.png");
+}
+
+.icon-cat{
+    background-image: url("/img/gatos.png");
+}
+
+.button{
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+#nav-bar{
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 72px;
+    background-color: var(--color-white);
+}
