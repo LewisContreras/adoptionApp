@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body{
+    background-color: #FEC7D7;
+}
+
+#container-logo{
+    height: 100vh;
+    background-image: url("/img/logo.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 31px;
+    animation-name: agrandar;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes agrandar{
+    from{
+        display: block;
+        background-size: 31px;
+    }
+
+    to{
+        background-size: 150px;
+    }
+}
+
+.hidden{
+    display: none;
+}
+
+.container-img{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-img div{
+    text-align: center;
+    width: 327px;
+}
+
+.container-img div img{
+    max-width: 100%;
+    height: auto;
+}
+
+.container-button{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-size: 21px;
+    font-weight: bold;
+    color: #0E172C;
+}
+
+.text{
+    color: #535353;
+    font-size: 20px;
+}
+
+.button{
+    background-color: #0E172C;
+    text-decoration: none;
+    border: none;
+    color: #FFFFFE;
+    width: 327px;
+    height: 48px;
+    border-radius: 24px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
