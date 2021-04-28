@@ -1,0 +1,130 @@
+:root{
+    --color-primary:#FEC7D7;
+    --color-secondary:#A786DF;
+    --color-tertiary: #D9D4E7;
+    --color-green: #85D1CE;
+    --color-blue: #91C1D7;
+    --color-white: #FFFFFE;
+    --color-black: #0E172C;
+    --color-gray: #535353;
+    --font-family: "Nunito", sans-serif;
+}
+
+.img-detail-container{
+    background-image: url("/img/rocky.png");
+    background-repeat: no-repeat;
+    background-position: cover;
+    height: 442px;
+    max-width: 100%;
+    padding: 27px;
+}
+
+.back-button{
+    display: inline-block;
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    display: flex;
+}
+
+
+#card-info-pet{
+    background-color: var(--color-white);
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    position: relative;
+    height: 200px;
+    top: -32px;
+}
+
+#info-pet{
+    padding: 10px 0;
+}
+
+#name-and-add, #name-and-sex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#name-and-sex p{
+    margin-right: 10px;
+}
+
+#breed-and-age{
+    display: flex;
+}
+
+#breed-and-age div{
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+}
+
+#breed-and-age div img{
+    margin-right: 10px;
+}
+
+#location-pet{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    white-space: pre-line;
+}
+
+#location-pet img{
+    margin-right: 10px;
+}
+
+#personality-items-container{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.personality-item{
+    width: 92px;
+    height: 92px;
+    border: 2px solid var(--color-secondary);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#history-pet-container{
+    padding: 20px 0;
+}
+
+#contact-info-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+#contact-person{
+    display: flex;
+    align-items: center;
+}
+
+#contact-img-container{
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid var(--color-green);
+    margin-right: 10px;
+    
+}
+
+#contact-img-container img{
+    max-width: 100%;
+    height: 100%;
+}
+
+#contact-button{
+    height: 48px;
+    width: 155px;
+    border-radius: 24px;
+}
