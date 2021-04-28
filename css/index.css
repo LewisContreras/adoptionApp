@@ -50,17 +50,24 @@ body{
     background-image: url("/img/gatos.png");
 }
 
-.button{
+.button-category{
     justify-content: space-between;
     padding-left: 10px;
     padding-right: 20px;
 }
 
-#nav-bar{
-    position: sticky;
+#nav-bar-container{
+    position: fixed;
     bottom: 0;
     left: 0;
     right: 0;
     height: 72px;
     background-color: var(--color-white);
+}
+
+#nav-bar{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }

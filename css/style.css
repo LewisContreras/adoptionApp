@@ -39,6 +39,10 @@
     color: var(--color-blue);
 }
 
+.text-color-green{
+    color: var(--color-green);
+}
+
 .headline-1{
     font-weight: 800;
     font-size: 24px;
@@ -139,9 +143,6 @@
     text-decoration: none;
     border: none;
     color: var(--color-white);
-    /* width: 327px;
-    height: 48px;
-    border-radius: 24px; */
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -155,4 +156,21 @@
 .constraint{
     max-width: 327px;
     margin: 0 auto;
+}
+
+.selected{
+    height: 40px;
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.selected > img{
+    margin-right: 5px;
+}
+
+.opacity{
+    opacity: 50%;
 }
