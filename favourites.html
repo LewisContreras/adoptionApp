@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>App de Adopción</title>
+    <title>Favourites</title>
     <!-- FONT NUNITO -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
@@ -13,27 +13,22 @@
     <!-- PREDETERMINED STYLES CSS -->
     <link rel="stylesheet" href="css/style.css">
     <!-- CUSTOM CSS -->
-    <link rel="stylesheet" href="css/index.css"> 
+    <link rel="stylesheet" href="css/favourites.css">
 </head>
-<body class="primary-background">
-    <main class="constraint">
-        <h1 class="headline-1">Adopta una adorable mascota</h1>
-
-        <div id="category-container">
-            <p class="subtitle-1 ">Categorías de mascotas</p>
-            <div id="buttons-category-container">
-                <div id="dog-category" class="button-category button">
-                    <div class="icon icon-dog">
-
-                    </div>
-                    <p class="body-1-bold text-color-white">Perros</p>
-                </div>
-                <div id="cat-category" class="button-category opacity button">
-                    <div class="icon icon-cat">
-
-                    </div>
-                    <p class="body-1-bold text-color-white">Gatos</p>
-                </div>
+<body class="primary-background navigator-padding">
+    
+    <main id="main" class="constraint">
+        <p class="headline-1 text-color-black">Mascotas Favoritas</p>
+        <div class="cards-container">
+            <div id="card-pet" class="card relative-up">
+                <p class="body-2-bold text-color-white">Rocky</p>
+                <p class="body-2-regular text-color-white">Rottweiller</p>
+            </div>
+            <div id="card-pet" class="card relative-down">
+            </div>
+            <div id="card-pet" class="card relative-up">
+            </div>
+            <div id="card-pet" class="card relative-down">
             </div>
         </div>
     </main>
@@ -41,15 +36,15 @@
 
     <div class="nav-bar-container">
         <nav class="nav-bar constraint">
-            <div id="home-icon" class="nav-img-container button selected">
-                <img  src="img/home-green.png" alt="home">
-                <p class="text-color-green body-2-regular">Home</p>
+            <div id="home-icon" class="nav-img-container">
+                <img  src="img/home.png" alt="home">
             </div>
             <div id="chat-icon" class="nav-img-container">
                 <img src="img/message-circle.png" alt="search">
             </div>
-            <div id="favourites-icon" class="nav-img-container">
-                <img src="img/heart.png" alt="favourites">
+            <div id="favourites-icon" class="nav-img-container button selected">
+                <img src="img/heart-green.png" alt="favourites">
+                <p class="text-color-green body-2-regular">Favoritos</p>
             </div>
             <div id="user-icon" class="nav-img-container">
                 <img src="img/user.png" alt="chat">
@@ -57,7 +52,5 @@
             
         </nav>
     </div>
-
-    <script src="js/main.js"></script>
 </body>
 </html>
