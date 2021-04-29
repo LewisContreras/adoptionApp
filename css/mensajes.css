@@ -1,0 +1,33 @@
+:root{
+    --color-primary:#FEC7D7;
+    --color-secondary:#A786DF;
+    --color-tertiary: #D9D4E7;
+    --color-green: #85D1CE;
+    --color-blue: #91C1D7;
+    --color-white: #FFFFFE;
+    --color-black: #0E172C;
+    --color-gray: #535353;
+    --font-family: "Nunito", sans-serif;
+}
+
+.box-message{
+    height: 80px;
+    background-color: var(--color-white);
+    padding: 8px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.info-message{
+    display: flex;
+    margin-right: 5px;
+}
+
+.name-and-time{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+

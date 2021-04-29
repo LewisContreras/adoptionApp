@@ -10,27 +10,11 @@
     --font-family: "Nunito", sans-serif;
 }
 
-/* .img-detail-container{
-    position: relative;
-} */
-
 #pet-photo{
     display: block;
     width: 100%;
     height: 442px;
 }
-
-.back-button{
-    display: inline-block;
-    height: 44px;
-    width: 44px;
-    border-radius: 50%;
-    display: flex;
-    position: absolute;
-    top: 30px;
-    left: 30px;
-}
-
 
 #card-info-pet{
     background-color: var(--color-white);

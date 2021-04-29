@@ -22,6 +22,10 @@
     background-color: var(--color-primary);
 }
 
+.white-background{
+    background-color: var(--color-white);
+}
+
 .text-color-black{
     color: var(--color-black);
 }
@@ -40,6 +44,11 @@
 
 .text-color-green{
     color: var(--color-green);
+}
+
+.padding-title{
+    padding-top: 30px;
+    padding-bottom: 20px;
 }
 
 .headline-1{
@@ -131,6 +140,31 @@
     flex-direction: column;
     justify-content: flex-end;
     padding: 16px;
+}
+
+.back-button{
+    display: inline-block;
+    height: 44px;
+    width: 44px;
+    border-radius: 50%;
+    display: flex;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+.contact-img{
+    height: 64px;
+    min-width: 64px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid var(--color-green);
+    margin-right: 10px;   
+}
+
+.contact-img img{
+    max-width: 100%;
+    height: 100%;
 }
 
 .relative-down{
