@@ -17,40 +17,37 @@
 </head>
 <body class="primary-background navigator-padding">
     
-    <main id="main" class="constraint">
-        <p class="headline-1 text-color-black">Mascotas Favoritas</p>
+    <main class="constraint">
+        <p class="headline-1 text-color-black padding-title">Mascotas Favoritas</p>
         <div class="cards-container">
-            <div id="card-pet" style="background-image:linear-gradient(180deg, rgba(255, 255, 255, 0) 26.42%, #000000 99.33%), url('/img/rocky.png') ;" class="card relative-up">
-                <p class="body-2-bold text-color-white">Rocky</p>
-                <p class="body-2-regular text-color-white">Rottweiller</p>
-            </div>
-            <div id="card-pet" class="card relative-down">
-            </div>
-            <div id="card-pet" class="card relative-up">
-            </div>
-            <div id="card-pet" class="card relative-down">
-            </div>
         </div>
     </main>
 
 
     <div class="nav-bar-container">
         <nav class="nav-bar constraint">
-            <div id="home-icon" class="nav-img-container">
-                <img  src="img/home.png" alt="home">
-            </div>
-            <div id="chat-icon" class="nav-img-container">
-                <img src="img/message-circle.png" alt="search">
-            </div>
+            <a href="index.html">
+                <div id="home-icon" class="nav-img-container">
+                    <img  src="img/home.png" alt="home">
+                </div>
+            </a>
+            <a href="mensajes.html">
+                <div id="chat-icon" class="nav-img-container">
+                    <img src="img/message-circle.png" alt="search">
+                </div>
+            </a>
             <div id="favourites-icon" class="nav-img-container button selected">
                 <img src="img/heart-green.png" alt="favourites">
                 <p class="text-color-green body-2-regular">Favoritos</p>
             </div>
-            <div id="user-icon" class="nav-img-container">
-                <img src="img/user.png" alt="chat">
-            </div>
+            <a href="user.html">
+                <div id="user-icon" class="nav-img-container">
+                    <img src="img/user.png" alt="chat">
+                </div>
+            </a>
             
         </nav>
     </div>
+    <script type="module" src="js/favourites.js"></script>
 </body>
 </html>
