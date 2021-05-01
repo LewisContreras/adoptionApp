@@ -116,3 +116,7 @@
     width: 155px;
     border-radius: 24px;
 }
+
+#favourite-button img{
+    cursor: pointer;
+}
