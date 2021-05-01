@@ -20,7 +20,7 @@ export const dataDogs = {
         "location" : "Al frente de Rocky",
         "personality" : ["Inquieto", "Cariñoso", "Tierno"],
         "History" : "Bruno es un perrito muy lindo y cariñoso, tiene 5 hermanitos más y por cuestiones de espacio y tiempo no podremos cuidar a todos, nuestra misión es encontrar la familia ideal para él y seguro que tú eres la persona indicada.",
-        "petPhoto" : "img/bruno.png",
+        "petPhoto" : "img/bruno.jpg",
         "owner" : "Oscar Zápata",
         "ownerPhoto" : "img/elmejor.jpg",
         "id": "p002"
@@ -33,7 +33,7 @@ export const dataDogs = {
         "location" : "Diagonal a Bruno",
         "personality" : ["Tierno", "Juguetón", "Cariñoso"],
         "History" : "Chester es un perrito muy lindo y cariñoso, tiene 5 hermanitos más y por cuestiones de espacio y tiempo no podremos cuidar a todos, nuestra misión es encontrar la familia ideal para él y seguro que tú eres la persona indicada.",
-        "petPhoto" : "img/chester.png",
+        "petPhoto" : "img/chester.jpg",
         "owner" : "Luis Suarez",
         "ownerPhoto" : "img/elmejor.jpg",
         "id": "p003"
@@ -46,7 +46,7 @@ export const dataDogs = {
         "location" : "A la vuelta de Chester",
         "personality" : ["Cariñoso", "Tierno", "Juguetón"],
         "History" : "Papi es un perrito muy lindo y cariñoso, tiene 5 hermanitos más y por cuestiones de espacio y tiempo no podremos cuidar a todos, nuestra misión es encontrar la familia ideal para él y seguro que tú eres la persona indicada.",
-        "petPhoto" : "img/papi.png",
+        "petPhoto" : "img/papi.jpg",
         "owner" : "Bruno Díaz",
         "ownerPhoto" : "img/elmejor.jpg",
         "id": "p004"
@@ -59,7 +59,7 @@ export const dataDogs = {
         "location" : "En la mansión Foster",
         "personality" : ["Inquieto", "Cariñoso", "Tierno"],
         "History" : "Pelusa es un perrito muy lindo y cariñoso, tiene 5 hermanitos más y por cuestiones de espacio y tiempo no podremos cuidar a todos, nuestra misión es encontrar la familia ideal para él y seguro que tú eres la persona indicada.",
-        "petPhoto" : "img/pelusa.png",
+        "petPhoto" : "img/pelusa.jpg",
         "owner" : "Marco Reus",
         "ownerPhoto" : "img/elmejor.jpg",
         "id": "p005"
@@ -88,7 +88,7 @@ export const dataCats = {
         "location" : "4140 Parker Rd. Allentown, New Mexico 31134",
         "personality" : ["Cariñoso", "Inquieto", "Tierno"],
         "History" : "Kity es la mejor guarda espaldas, siempre esta hay para conversar y recibirá cada día con un fuerte cariño. Fue rescatada y busco una persona que le pueda dar todo el amor que ella necesita.",
-        "petPhoto" : "img/kity.png",
+        "petPhoto" : "img/kity.jpg",
         "owner" : "Elver Pardo",
         "ownerPhoto" : "img/elmejor.jpg",
         "id": "g002"
@@ -101,7 +101,7 @@ export const dataCats = {
         "location" : "4140 Parker Rd. Allentown, New Mexico 31134",
         "personality" : ["Juguetón", "Inquieto", "Tierno"],
         "History" : "Ra es la mejor guarda espaldas, siempre esta hay para conversar y recibirá cada día con un fuerte cariño. Fue rescatada y busco una persona que le pueda dar todo el amor que ella necesita.",
-        "petPhoto" : "img/ra.png",
+        "petPhoto" : "img/ra.jpg",
         "owner" : "Cesar Días",
         "ownerPhoto" : "img/elmejor.jpg",
         "id": "g003"
@@ -114,7 +114,7 @@ export const dataCats = {
         "location" : "4140 Parker Rd. Allentown, New Mexico 31134",
         "personality" : ["Juguetón", "Inquieto", "Tierno"],
         "History" : "Bombón es la mejor guarda espaldas, siempre esta hay para conversar y recibirá cada día con un fuerte cariño. Fue rescatada y busco una persona que le pueda dar todo el amor que ella necesita.",
-        "petPhoto" : "img/bombon.png",
+        "petPhoto" : "img/bombon.jpg",
         "owner" : "Alba Peréz",
         "ownerPhoto" : "img/elmejor.jpg",
         "id": "g004"
@@ -127,7 +127,7 @@ export const dataCats = {
         "location" : "4140 Parker Rd. Allentown, New Mexico 31134",
         "personality" : ["Juguetón", "Inquieto", "Tierno"],
         "History" : "Siami es la mejor guarda espaldas, siempre esta hay para conversar y recibirá cada día con un fuerte cariño. Fue rescatada y busco una persona que le pueda dar todo el amor que ella necesita.",
-        "petPhoto" : "img/siami.png",
+        "petPhoto" : "img/siami.jpg",
         "owner" : "Pepita Lupe",
         "ownerPhoto" : "img/elmejor.jpg",
         "id": "g005"

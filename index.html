@@ -15,27 +15,30 @@
     <!-- CUSTOM CSS -->
     <link rel="stylesheet" href="css/index.css"> 
 </head>
-<body class="primary-background">
+<body class="primary-background navigator-padding">
     <main class="constraint">
         <h1 class="headline-1">Adopta una adorable mascota</h1>
 
-        <div id="category-container">
+        <section id="category-container">
             <p class="subtitle-1 ">Categorías de mascotas</p>
             <div id="buttons-category-container">
-                <div id="dog-category" class="button-category button">
+                <div name="dog-category" id="dog-category" class="button-category button dog-button" >
                     <div class="icon icon-dog">
 
                     </div>
                     <p class="body-1-bold text-color-white">Perros</p>
                 </div>
-                <div id="cat-category" class="button-category opacity button">
+                <div id="cat-category" class="button-category button cat-button opacity">
                     <div class="icon icon-cat">
 
                     </div>
                     <p class="body-1-bold text-color-white">Gatos</p>
                 </div>
             </div>
-        </div>
+        </section>
+        <section class="cards-container">
+            
+        </section>
     </main>
 
 
@@ -46,18 +49,18 @@
                 <p class="text-color-green body-2-regular">Home</p>
             </div>
             <div id="chat-icon" class="nav-img-container">
-                <img src="img/message-circle.png" alt="search">
+                <a href="mensajes.html"><img src="img/message-circle.png" alt="chat"></a>
             </div>
             <div id="favourites-icon" class="nav-img-container">
-                <img src="img/heart.png" alt="favourites">
+                <a href="favourites.html"><img src="img/heart.png" alt="favourites"></a>
             </div>
             <div id="user-icon" class="nav-img-container">
-                <img src="img/user.png" alt="chat">
+                <a href="user.html"><img src="img/user.png" alt="user"></a>
             </div>
             
         </nav>
     </div>
 
-    <script src="js/main.js"></script>
+    <script type="module" src="js/main.js"></script>
 </body>
 </html>
