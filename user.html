@@ -23,21 +23,21 @@
             <div id="user-photo" class="contact-img">
                 <img src="img/elmejor.jpg" alt="el mejor">
             </div>
-            <p class="body-1-regular">Lewis, el capo</p>
-            <p class="button-text">Editar cuenta</p>
+            <p id="name-current-info" class="body-1-regular"></p>
+            <a id="edit-account" href="#"><p class="button-text">Editar cuenta</p></a>
         </div>
 
         <form action="" class="user-form">
-            <label class="label-input body-1-regular" for="name">Nombre
-                <input class="input body-1-regular" id="name" type="text" placeholder="Ingresa tu nombre" required>
+            <label class="label-input body-1-regular" for="name-input">Nombre
+                <input class="input body-1-regular" id="name-input" type="text" placeholder="Ingresa tu nombre" required>
             </label>
-            <label class="label-input body-1-regular" for="lastName">Apellido
-                <input class="input body-1-regular" id="lastName" type="text" placeholder="Ingresa tu Apellido" required>
+            <label class="label-input body-1-regular" for="lastname-input">Apellido
+                <input class="input body-1-regular" id="lastname-input" type="text" placeholder="Ingresa tu Apellido" required>
             </label>
-            <label class="label-input body-1-regular" for="email">Correo
-                <input class="input body-1-regular" id="email" type="email" placeholder="Ingresa tu correo" required>
+            <label class="label-input body-1-regular" for="email-input">Correo
+                <input class="input body-1-regular" id="email-input" type="email" placeholder="Ingresa tu correo" required>
             </label>
-            <input class="button button-form" type="submit" value="Guardar">
+            <input class="submit-button button button-form" type="submit" value="Guardar">
             <!-- <button>Guardar</button> -->
         </form>
     
@@ -46,15 +46,21 @@
 
     <div class="nav-bar-container">
         <nav class="nav-bar constraint">
-            <div id="home-icon" class="nav-img-container">
-                <img  src="img/home.png" alt="home">
-            </div>
-            <div id="chat-icon" class="nav-img-container">
-                <img src="img/message-circle.png" alt="search">         
-            </div>
-            <div id="favourites-icon" class="nav-img-container">
-                <img src="img/heart.png" alt="favourites">
-            </div>
+            <a href="index.html">
+                <div id="home-icon" class="nav-img-container">
+                    <img  src="img/home.png" alt="home">
+                </div>
+            </a>
+            <a href="mensajes.html">
+                <div id="chat-icon" class="nav-img-container">
+                    <img src="img/message-circle.png" alt="search">         
+                </div>
+            </a>
+            <a href="favourites.html">
+                <div id="favourites-icon" class="nav-img-container">
+                    <img src="img/heart.png" alt="favourites">
+                </div>
+            </a>
             <div id="user-icon" class="nav-img-container button selected">
                 <img src="img/user-green.png" alt="user-icon">
                 <p class="text-color-green body-2-regular">Perfil</p>
@@ -62,5 +68,6 @@
             
         </nav>
     </div>
+    <script src="js/user.js"></script>
 </body>
 </html>
