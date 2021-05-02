@@ -25,7 +25,7 @@ function verifyPets(e) {
 }
 
 function listDogs(current, dataPets) {
-    
+     
 
     let petsContainer = ``;
     let singlePet;
@@ -56,12 +56,19 @@ function listDogs(current, dataPets) {
     cardsContainer.innerHTML = petsContainer;
     current.classList.add("opacity");
     if (current.getAttribute("name") == "dog-category") {
-        catButton.classList.toggle("opacity");
+        catButton.classList.remove("opacity");
+        localStorage.removeItem("cat");
     }else{
-        dogButton.classList.toggle("opacity");
+        dogButton.classList.remove("opacity");
+        localStorage.setItem("cat", "exist");
     }
 }
- listDogs(dogButton,dataDogs)
+if(localStorage.getItem("cat")){
+    listDogs(catButton,dataCats)
+}else{
+    listDogs(dogButton,dataDogs)
+}
+
 
 /////////////////////////////////////////////////
  cardsContainer.addEventListener("click", goToDetail)
