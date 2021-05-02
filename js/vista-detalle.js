@@ -1,8 +1,7 @@
 let petObject = JSON.parse(localStorage.getItem("detailView"));
-localStorage.removeItem("detailView")
 // console.log();
 
-
+ 
 let imgView = document.getElementById("pet-photo");
 imgView.src = petObject.petPhoto;
 
@@ -108,4 +107,12 @@ function goToChat(e) {
     contactPerson.owner = petObject.owner;
     contactPerson.ownerPhoto = petObject.ownerPhoto;
     localStorage.setItem("contactPerson", JSON.stringify(contactPerson));
+}
+
+let backButton = document.querySelector(".back-button");
+backButton.addEventListener("click", goBack);
+
+function goBack(e) {
+    console.log("Holi");
+    window.history.back();
 }

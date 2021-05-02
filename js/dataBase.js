@@ -140,23 +140,23 @@ export const dataMessages= [
         "ownerPhoto" : "img/elmejor.jpg",
         "inputMessage" : "Hola, me intresaría adoptar  a Rocky",
         "outputMessage" : "Hola! claro, podemos acordar un lugar y hora para que conoscas",
-        "outputTime" : "4:00 PM",
-        "inputTime" : "4:36 PM"
+        "inputTime" : "4:00 PM",
+        "outputTime" : "4:36 PM"
     },
     {
         "owner": "Juan Jesus",
         "ownerPhoto" : "img/elmejor.jpg",
         "inputMessage" : "Hola, me intresaría adoptar a Matilde",
         "outputMessage" : "Genial! Acordemos un punto de encuentro",
-        "outputTime" : "4:45 PM",
-        "inputTime" : "5:07 PM"
+        "inputTime" : "4:45 PM",
+        "outputTime" : "5:07 PM"
     },
     {
         "owner": "Marco Reus",
         "ownerPhoto" : "img/elmejor.jpg",
         "inputMessage" : "Hola, estoy interesado en adoptar a Pelusa",
         "outputMessage" : "Qué bueno. En qué momento nos podríamos ver?",
-        "outputTime" : "6:38 PM",
-        "inputTime" : "7:00 PM"
+        "inputTime" : "6:38 PM",
+        "outputTime" : "7:00 PM"
     }
 ]
