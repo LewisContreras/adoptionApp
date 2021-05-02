@@ -9,13 +9,13 @@ if(localStorage.getItem("messages")){
             <div class="chat-message">
                 <p class="body-2-regular">${messagesObject.inputTime}</p>
                 <div class="chat-sent">
-                    <div class="body-2-regular">${messagesObject.inputMessage}</div>
+                    <div class="body-2-regular"><div>${messagesObject.inputMessage}</div></div>
                 </div>
             </div>
             <div class="chat-message">
                 <p class="body-2-regular">${messagesObject.outputTime}</p>
                 <div class="chat-received">
-                    <div class="body-2-regular">${messagesObject.outputMessage}</div>
+                    <div class="body-2-regular"><div>${messagesObject.outputMessage}</div></div>
                 </div>
             </div>
         `
@@ -52,22 +52,51 @@ chatInput.addEventListener("keypress", sendMessage);
 
 function sendMessage(e) {
     let content;
-    let time = new Date()
-    console.log(time.getDate())
-    console.log(time.getDay())
-    console.log(time.getSeconds())
-    console.log(time.getTime())
-    console.log(time.getTimezoneOffset())
-    console.log(time.getUTCHours())
-    if(e.keyCode == 13){
+    let time = new Date();
+    let amOrPm = " AM";
+    let oneDigit = "";
+    if(e.keyCode == 13 && chatInput.value){
+        try {
+            let noMessages = document.getElementById("no-messages");
+            noMessages.classList.add("hidden");
+        } catch (error) {
+        }
+        
+        if (time.getMinutes()/10 < 1) {
+            oneDigit = "0";
+        }
+        if (time.getHours()/12 >= 1) {
+            amOrPm = " PM"
+        }
+        let currentHour = String(time.getHours()%12) + ":" + oneDigit + String(time.getMinutes()) + amOrPm;
         content = chatInput.value;
-        chatMessagesContainer.innerHTML =`
-        <div class="chat-message">
-            <p class="body-2-regular">${time.getMinutes()}</p>
-            <div class="chat-sent">
-                <div class="body-2-regular">${content}</div>
+        let div = document.createElement("div");
+        div.classList.add("chat-sent-container");
+        if (chatMessagesContainer.lastElementChild.classList.contains("chat-sent-container")) {
+            console.log("si lo tengo");
+            div.innerHTML =`
+            <div class="chat-message">
+                <div class="chat-sent">
+                    <div><div><p  class="body-2-regular break-word">${content}</p></div></div>
+                </div>
             </div>
-        </div>
-    ` ;
+            `
+        }else{
+            div.innerHTML =`
+            <div class="chat-message">
+                <p class="body-2-regular">${currentHour}</p>
+                <div class="chat-sent">
+                    <div><div><p  class="body-2-regular break-word">${content}</p></div></div>
+                </div>
+            </div>
+            `
+        }
+        
+        window.scrollTo(0,document.body.scrollHeight);
+        console.log(document.body.scrollHeight-1000)
+        ;
+
+        chatMessagesContainer.appendChild(div)
+        chatInput.value = "";
     }
 }

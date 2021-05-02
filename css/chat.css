@@ -12,6 +12,7 @@
 
 #chat-container{
     padding-top: 144px;
+
 }
 
 #chat-header{
@@ -35,6 +36,12 @@
 .chat-message{
     margin-top: 20px;
     text-align: center;
+    
+}
+
+.chat-messages-container{
+    min-height:73vh;
+    padding-bottom: 150px;
 }
 
 .chat-sent{
@@ -68,7 +75,7 @@
 }
 
 #chat-input-container{
-    position: absolute;
+    position: sticky;
     bottom: 0;
     right: 0; 
     left: 0;
@@ -86,4 +93,9 @@
 #no-messages{
     text-align: center;
     padding-top: 100px;
+}
+
+.break-word{
+    word-break: break-all;
+    hyphens: auto;
 }
