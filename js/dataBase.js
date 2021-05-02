@@ -133,3 +133,30 @@ export const dataCats = {
         "id": "g005"
     }
 }
+
+export const dataMessages= [
+    {
+        "owner": "Maria Dolores",
+        "ownerPhoto" : "img/elmejor.jpg",
+        "inputMessage" : "Hola, me intresaría adoptar  a Rocky",
+        "outputMessage" : "Hola! claro, podemos acordar un lugar y hora para que conoscas",
+        "outputTime" : "4:00 PM",
+        "inputTime" : "4:36 PM"
+    },
+    {
+        "owner": "Juan Jesus",
+        "ownerPhoto" : "img/elmejor.jpg",
+        "inputMessage" : "Hola, me intresaría adoptar a Matilde",
+        "outputMessage" : "Genial! Acordemos un punto de encuentro",
+        "outputTime" : "4:45 PM",
+        "inputTime" : "5:07 PM"
+    },
+    {
+        "owner": "Marco Reus",
+        "ownerPhoto" : "img/elmejor.jpg",
+        "inputMessage" : "Hola, estoy interesado en adoptar a Pelusa",
+        "outputMessage" : "Qué bueno. En qué momento nos podríamos ver?",
+        "outputTime" : "6:38 PM",
+        "inputTime" : "7:00 PM"
+    }
+]

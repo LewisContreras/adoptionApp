@@ -11,23 +11,41 @@
 }
 
 .box-message{
-    height: 80px;
+    /* height: 80px; */
     background-color: var(--color-white);
     padding: 8px;
     border-radius: 8px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    margin: 20px 0;
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
 }
 
 .info-message{
     display: flex;
+    flex-grow: 1;
     margin-right: 5px;
+    pointer-events: none;
+}
+
+.message-data{
+    flex-grow: 1;
+    pointer-events: none;
 }
 
 .name-and-time{
     display: flex;
     justify-content: space-between;
 }
+
+.arrow-message{
+    pointer-events: none;
+}
+
 
 
 

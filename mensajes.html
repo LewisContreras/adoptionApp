@@ -19,52 +19,39 @@
     
     <main id="main" class="constraint">
         <p class="headline-1 text-color-black padding-title">Mensajes</p>
-        <div class="box-message">
-                <div class="info-message">
 
-                    <div class="contact-img">
-                        <img src="img/elmejor.jpg" alt="Foto del contacto">
-                    </div>
-
-
-                    <div>
-                        <div class="name-and-time">
-                            <p class="body-2-bold">Maria dolores</p>
-                            <p class="caption">4:24</p>
-                        </div>
-                        <p class="body-2-regular">¡Hola! claro, podemos acordar un lugar y hora para que conoscas...</p>
-                        
-                    </div>
-
-                </div>
-
-
-                <div>
-                    <img src="img/chevron-right.png" alt="">
-                </div>
+        <div class="messages-container">
 
         </div>
+        
     
     </main>
 
 
     <div class="nav-bar-container">
         <nav class="nav-bar constraint">
-            <div id="home-icon" class="nav-img-container">
-                <img  src="img/home.png" alt="home">
-            </div>
+            <a href="index.html">
+                <div id="home-icon" class="nav-img-container">
+                    <img  src="img/home.png" alt="home">
+                </div>
+            </a>
             <div id="chat-icon" class="nav-img-container  button selected">
                 <img src="img/message-circle-green.png" alt="search">
                 <p class="text-color-green body-2-regular">Mensajes</p>
             </div>
-            <div id="favourites-icon" class="nav-img-container">
-                <img src="img/heart.png" alt="favourites">
-            </div>
-            <div id="user-icon" class="nav-img-container">
-                <img src="img/user.png" alt="chat">
-            </div>
+            <a href="favourites.html">
+                <div id="favourites-icon" class="nav-img-container">
+                    <img src="img/heart.png" alt="favourites">
+                </div>
+            </a>
+            <a href="user.html">
+                <div id="user-icon" class="nav-img-container">
+                    <img src="img/user.png" alt="chat">
+                </div>
+            </a>
             
         </nav>
     </div>
+    <script type="module" src="js/mensajes.js"></script>
 </body>
 </html>
