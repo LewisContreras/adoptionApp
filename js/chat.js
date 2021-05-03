@@ -60,7 +60,7 @@ function sendMessage(e) {
             let noMessages = document.getElementById("no-messages");
             noMessages.classList.add("hidden");
         } catch (error) {
-        }
+        } 
         
         if (time.getMinutes()/10 < 1) {
             oneDigit = "0";

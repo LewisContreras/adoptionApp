@@ -49,7 +49,7 @@
     justify-content: flex-end;
 }
 
-.chat-sent div{
+.chat-sent > div{
     background-color: var(--color-white);
     color: var(--color-black);
     padding: 16px;
@@ -64,14 +64,16 @@
     justify-content: flex-start;
 }
 
-.chat-received div{
+.chat-received > div{
     background-color: var(--color-gray);
-    color: var(--color-white);
     padding: 16px;
     width: 78%;
     margin-top: 10px;
     border-radius: 16px;
     text-align: left;
+}
+.chat-received div{
+    color: var(--color-white);
 }
 
 #chat-input-container{

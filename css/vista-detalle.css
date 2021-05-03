@@ -10,6 +10,29 @@
     --font-family: "Nunito", sans-serif;
 }
 
+main{
+    height: 100vh;
+    background-color: var(--color-white);
+}
+
+.change-background {
+    animation-duration: 1s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: backwards;
+    animation-name: changeBackground;
+}
+
+
+@keyframes changeBackground {
+0% {
+    background-color: var(--color-primary);
+}
+
+100% {
+    background-color: var(--color-white);
+}
+}
+ 
 #pet-photo{
     display: block;
     width: 100%;
@@ -119,4 +142,10 @@
 
 #favourite-button img{
     cursor: pointer;
+}
+
+@media (min-width: 600px){
+    #pet-photo{
+        height: 600px;
+    }
 }

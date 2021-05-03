@@ -56,3 +56,7 @@ body{
     padding-right: 20px;
 }
 
+.no-select{
+    cursor: default;
+}
+

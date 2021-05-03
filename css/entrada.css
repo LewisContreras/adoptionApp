@@ -61,3 +61,52 @@
     height: 48px;
     border-radius: 24px;
 }
+
+#container-imagen-segunda{
+    position: absolute;
+    left: 100vw;
+    top: 0;
+}
+
+.scene_element {
+    animation-duration: 0.5s;
+    transition-timing-function: ease-in;
+    animation-fill-mode: both;
+}
+
+.scene_element--fadeinrightentry {
+    animation-name: fadeInRightEntry;
+}
+
+@keyframes fadeInRightEntry {
+    0% {
+        left: 100vw;
+        
+    }
+    
+    100% {
+        left: 6%;
+        top: 0;
+        /* right: 0; */
+        /* bottom: 0; */
+    }
+    }
+
+.scene_element--fadeoutrightentry {
+    animation-name: fadeOutRightEntry;
+}
+
+@keyframes fadeOutRightEntry {
+    0% {
+        left: 6%;
+        top: 0;
+        
+    }
+    
+    100% {
+        left: -100vw;
+        top: 0;
+        /* right: 0; */
+        /* bottom: 0; */
+    }
+        }
