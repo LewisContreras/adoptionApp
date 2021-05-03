@@ -85,7 +85,7 @@
     }
     
     100% {
-        left: 6%;
+        left: calc(50% - 163.5px);
         top: 0;
         /* right: 0; */
         /* bottom: 0; */
@@ -98,7 +98,7 @@
 
 @keyframes fadeOutRightEntry {
     0% {
-        left: 6%;
+        left: calc(50% -270px);
         top: 0;
         
     }

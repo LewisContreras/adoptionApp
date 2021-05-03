@@ -15,24 +15,9 @@ if (localStorage.getItem("userInfo")) {
 
 editAccount.addEventListener("click", ()=>userForm.reset())
 
-
-
-
-
-
-
-
-
-
-
 let userInfo ={}
 
-
-
-
-
 userForm.addEventListener("submit", submitForm);
-
 
 function submitForm(e) {
     e.preventDefault();

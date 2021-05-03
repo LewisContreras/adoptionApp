@@ -73,7 +73,6 @@ function sendMessage(e) {
         let div = document.createElement("div");
         div.classList.add("chat-sent-container");
         if (chatMessagesContainer.lastElementChild.classList.contains("chat-sent-container")) {
-            console.log("si lo tengo");
             div.innerHTML =`
             <div class="chat-message">
                 <div class="chat-sent">

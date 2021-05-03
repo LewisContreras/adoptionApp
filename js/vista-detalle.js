@@ -113,6 +113,5 @@ let backButton = document.querySelector(".back-button");
 backButton.addEventListener("click", goBack);
 
 function goBack(e) {
-    console.log("Holi");
     window.history.back();
 }
