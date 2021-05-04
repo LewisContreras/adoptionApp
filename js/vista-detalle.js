@@ -9,6 +9,7 @@ let nameAndSex = document.getElementById("name-and-sex");
 nameAndSex.setAttribute("name",petObject.id);
 nameAndSex.firstElementChild.textContent = petObject.namePet;
 nameAndSex.lastElementChild.src = `img/${petObject.sex}.png`;
+nameAndSex.lastElementChild.alt = `${petObject.sex}'s symbol`
 
 let breed = document.getElementById("breed");
 breed.lastElementChild.textContent = petObject.breed;
