@@ -50,3 +50,22 @@
     text-decoration: none;
     padding-top: 10px;
 }
+@media (min-width:900px){
+    .nav-bar-container{
+        top: 0;
+        height: 100px;
+    }
+    .navigator-padding{
+        padding-top: 100px;
+    }
+
+    .constraint{
+        max-width: 80%;
+    }
+
+    .user-form, .user-headline{
+        max-width: 70%;
+        margin: auto;
+    }
+    
+}

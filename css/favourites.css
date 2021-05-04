@@ -1,3 +1,26 @@
 
+@media (min-width:900px){
+    .nav-bar-container{
+        top: 0;
+        height: 100px;
+    }
+    .navigator-padding{
+        padding-top: 100px;
+    }
 
+    .constraint{
+        max-width: 80%;
+    }
+
+    .cards-container{
+        flex-grow: 4;
+        display: flex; 
+        justify-content:flex-start ;
+    }
+    .card{
+        height: 30vw;
+        width: 18vw;
+        margin: 5px 5px;
+    } 
+}
 

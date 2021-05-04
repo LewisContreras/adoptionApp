@@ -55,7 +55,7 @@ function sendMessage(e) {
     let time = new Date();
     let amOrPm = " AM";
     let oneDigit = "";
-    if(e.keyCode == 13 && chatInput.value){
+    if(e.keyCode == 13 && chatInput.value  && chatInput.value.split(" ").every(e => e.length == 0) == false){
         try {
             let noMessages = document.getElementById("no-messages");
             noMessages.classList.add("hidden");

@@ -60,3 +60,74 @@ body{
     cursor: default;
 }
 
+
+@media (min-width:900px){
+    .nav-bar-container{
+        top: 0;
+        height: 100px;
+    }
+    .navigator-padding{
+        padding-top: 100px;
+    }
+
+    .constraint{
+        max-width: 80%;
+    }
+
+    main{
+        display:flex;
+    }
+    
+    #category-container{
+        flex-grow: 1;
+        width: 250px;
+        display: block;
+        padding: 0 50px 0 0;
+        min-height: 100%;
+    }
+
+    #category-container h1{
+        position: sticky;
+        top: 140px;
+    }
+
+    #category-container p{
+        position: sticky;
+        top: 244px;
+    }
+
+    #category-container #buttons-category-container{
+        position: sticky;
+        top: 268px;
+    }
+
+    #buttons-category-container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #buttons-category-container .button-category{
+        margin: 2% 0;
+        width: 100%;
+    }
+
+    .cards-container{
+        flex-grow: 4;
+        display: flex;
+        
+        justify-content:flex-start ;
+    }
+
+    .cards-container a{
+        width: 24%;
+        padding: 0.5%;
+    }
+    .card{
+        height: 25vw;
+        width: 100%;
+        margin: 0 5px;
+    }
+    /* .card{
+        width: 60vw;
+    } */
+}

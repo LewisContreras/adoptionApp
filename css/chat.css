@@ -100,3 +100,26 @@
 .break-word{
     word-break: break-all;
 }
+
+@media (min-width:900px){
+
+    .constraint{
+        max-width: 80%;
+    }
+
+    .chat-sent{
+        display: flex;
+        justify-content: flex-end;
+    }
+    
+    .chat-sent > div{
+        background-color: var(--color-white);
+        color: var(--color-black);
+        padding: 16px;
+        /* width: 78%; */
+        margin-top: 10px;
+        border-radius: 16px;
+        text-align: left;
+    }
+    
+}

@@ -46,6 +46,20 @@ a{
     pointer-events: none;
 }
 
+@media (min-width:900px){
+    .nav-bar-container{
+        top: 0;
+        height: 100px;
+    }
+    .navigator-padding{
+        padding-top: 100px;
+    }
+
+    .constraint{
+        max-width: 80%;
+    }
+}
+
 
 
 
