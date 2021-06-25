@@ -1,7 +1,7 @@
 # adoptionApp
 App de adopción de mascotas.
 
-Se hizo uso de HTML, CSS y javascript para llevar a cabo este proyecto.
+Se hizo uso de HTML, CSS y Javascript para llevar a cabo este proyecto.
 
 [Aquí](https://lewiscontreras.github.io/adoptionApp/) puedes ver el despliegue.
 
