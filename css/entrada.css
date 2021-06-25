@@ -96,7 +96,7 @@
 
 @keyframes fadeOutRightEntry {
     0% {
-        left: calc(50% -270px);
+        left: calc(50% -163.5px);
         top: 0;
         
     }

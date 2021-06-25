@@ -8,7 +8,7 @@ let cardsContainer = document.querySelector(".cards-container");
 
 dogButton.addEventListener("click", verifyPets);
 catButton.addEventListener("click", verifyPets);
-
+ 
 
 function verifyPets(e) {
     let current = e.currentTarget;
