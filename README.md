@@ -1,4 +1,4 @@
-# adoptionApp
+# Adoption App
 App de adopción de mascotas.
 
 Se hizo uso de HTML, CSS y Javascript para llevar a cabo este proyecto.
