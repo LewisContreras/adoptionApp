@@ -9,13 +9,6 @@
     --color-gray: #535353;
     --font-family: "Nunito", sans-serif;
 }
-/* 
-body{
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
-} */
 
 .headline-1{
     margin: 40px 0;
@@ -38,16 +31,9 @@ body{
     width: 64px;
     height: 64px;
     border-radius: 50%;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.icon-dog{
-    background-image: url("/img/perros2.png");
-}
-
-.icon-cat{
-    background-image: url("/img/gatos2.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .button-category{
@@ -127,7 +113,4 @@ body{
         width: 100%;
         margin: 0 5px;
     }
-    /* .card{
-        width: 60vw;
-    } */
 }
